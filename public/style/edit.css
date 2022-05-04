@@ -1,0 +1,84 @@
+.container-section{
+    width: 100%;
+    padding: 2rem;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+header{
+    width: inherit;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.create-form{
+    height: 80%;
+    width: 100%;
+    
+
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+label{
+    margin-bottom: 1em;
+}
+input{
+    height: 2em;
+    width: 50%;
+    margin-bottom: 3em;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+input:active{
+    background-color: none;
+}
+
+.create-button{
+    width: fit-content;
+    height: auto;
+    padding: 0.3em;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(85, 206, 85);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+.create-button:hover{
+    border: solid rgb(85, 206, 85);
+    background: white;
+    color: rgb(85, 206, 85);
+}
+.create-button:active{
+    background-color: rgb(85, 206, 85);
+    color: white;
+    border: none;
+}
+section{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+input:focus{
+    
+    outline: none;
+}

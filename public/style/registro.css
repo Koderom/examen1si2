@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+}
+label{
+    margin-bottom: 15px;
+}
+.contenedor-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: whitesmoke;
+}
+.contenedor-registro{
+    background: white;
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 2rem;
+    padding: 2rem;
+    min-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.247);
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenedor-entrada{
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+input,select,option{
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    padding: 0.2rem 0.6rem;
+}
+footer{
+    width: 100%;
+    height: 5rem;
+    background: inherit;
+}
+h1{
+    text-align: center;
+}
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 0;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(40, 216, 78);
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(40, 216, 78);
+    border:2px solid rgb(40, 216, 78);
+    transition: all 0.5s;
+}
+button:active{
+    background-color: rgb(40, 216, 78);
+    color: rgb(255, 255, 255);
+    
+    transition: all 0.5s;
+}

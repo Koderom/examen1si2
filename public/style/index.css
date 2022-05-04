@@ -1,0 +1,96 @@
+.container-section{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+header{
+    width: inherit;
+    height: 80px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    margin-bottom: 2em;
+}
+section{
+    margin-bottom: 2em;
+    width: 100%;
+    height: auto;
+}
+footer{
+    height: 40px;
+}
+th{
+    border-bottom: 1px solid black;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    
+}
+.data-row:hover{
+    background: rgba(133, 133, 133, 0.171);
+}
+table{
+    width: 100%;
+    min-width: 600px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.39);
+}
+
+.create-button{
+    width: auto;
+    height: auto;
+    padding: 0.3em;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(85, 206, 85);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.7s;
+}
+.create-button:hover{
+    border: 1px solid rgb(85, 206, 85);
+    background: white;
+    color: rgb(85, 206, 85);
+    transition: background 0.7s;
+}
+.create-button:active{
+    background-color: rgb(85, 206, 85);
+    color: white;
+    border: none;
+}
+.icon{
+    color: rgba(0, 0, 0, 0.39);
+    text-decoration: none;
+    background: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0 0.8em ;
+}
+.edit:hover{
+    color: rgba(75, 199, 85, 0.589);
+}
+.delete:hover{
+    color: rgba(226, 28, 28, 0.473);
+}
+.show:hover{
+    color: rgba(0, 102, 255, 0.473);
+}
+.opciones-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
